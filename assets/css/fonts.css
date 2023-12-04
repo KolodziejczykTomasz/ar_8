@@ -1,24 +1,42 @@
 @font-face {
-    font-family: 'Inter';
-    src: url('../fonts/Inter/Inter-Light.ttf') format('truetype');
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins/Poppins-Light.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
 }
 @font-face {
-    font-family: 'Inter';
-    src: url('../fonts/Inter/Inter-Regular.ttf') format('truetype');
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins/Poppins-Regular.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
 }
 @font-face {
-    font-family: 'Inter';
-    src: url('../fonts/Inter/Inter-SemiBold.ttf') format('truetype');
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins/Poppins-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins/Poppins-SemiBold.ttf') format('truetype');
     font-weight: 600;
     font-style: normal;
 }
 @font-face {
-    font-family: 'Inter';
-    src: url('../fonts/Inter/Inter-Bold.ttf') format('truetype');
+    font-family: 'Poppins';
+    src: url('../fonts/Poppins/Poppins-Bold.ttf') format('truetype');
     font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Alex Brush';
+    src: url('../fonts/Alex_Brush/AlexBrush-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Questrial';
+    src: url('../fonts/Questrial/Questrial-Regular.ttf') format('truetype');
+    font-weight: 400;
     font-style: normal;
 }
