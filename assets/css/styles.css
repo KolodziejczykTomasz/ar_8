@@ -181,7 +181,7 @@ nav {
     text-transform: capitalize;
 }
 .about__container {
-    height: auto;
+    height: auto;   
 }
 .about__img {
     margin-top: 18.94px;
@@ -372,7 +372,7 @@ nav {
     height: 13px;
 }
 .skills__studies {
-    margin-top: 51.8px;
+    margin-top: 51.8px;   
 }
 .skills__studies--header {
     height: 25px;
@@ -546,6 +546,7 @@ nav {
         width: 100%;
         margin-left: 0;
     }
+    
 }
 
 @media (min-width: 577px) {
@@ -554,15 +555,16 @@ nav {
         border-left: 2px solid olivedrab; 
         border-right: 2px solid olivedrab;
     }  
-    .menu__clients--list {
+   
+}
+
+@media (min-width: 768px) {
+     .menu__clients--list {
         display: flex;
         justify-content: flex-start;
         gap: 68px;
         margin-left: 155.43px; 
     }
-}
-
-@media (min-width: 768px) {
     body {    
         width: 100%; 
         border-left: 2px solid blueviolet;   
@@ -578,17 +580,15 @@ nav {
         height: 85px;       
     }
     .skills__content {
-        margin-bottom: 31.53px;
-    }
+        margin-bottom: 31.53px;       
+    } 
     .skills__list {
         display: flex;
         justify-content: flex-start;
         margin-left: 119.9px;
         gap: 89px;
     }
-    .skills__container {
-        display: flex;
-    }
+
     .brake__line--first, .skills__content {
         margin-left: 119.9px;
     }
@@ -639,8 +639,10 @@ nav {
     }
     .skills__studies {     
         margin-top: 112.19px;
+        margin-left: 75.97px;
         width: 478.013px;
-        height: 85px; 
+        min-height: 85px; 
+        height: auto;
     }
     .skills__studies--header  p {
         height: 85px;
@@ -674,6 +676,9 @@ nav {
         display: flex;
         flex-direction: row;
     }
+    .about__content {
+        margin-left: 10%;
+    }
     .hero {
         display: flex;
         flex-direction: row-reverse;
@@ -702,6 +707,15 @@ nav {
     .experiance__header {
         margin-bottom: 86.69px;
     }
+    .about__content--desc p {
+        max-width: 521.302px;
+        width:100%;
+        min-height: 211.403px;
+        height: auto;
+        font-size: 1.4rem;
+        letter-spacing: 0.7px;  
+    } 
+    
 }
 
 @media (min-width: 992px) {
@@ -735,8 +749,53 @@ nav {
         flex-shrink: 0;
         background-repeat: no-repeat;
         background-size: cover;
-    }  
-  
+    } 
+    .about__img {
+        width: 470.316px;
+        height: 518.899px; 
+        margin-left: 0;
+        margin-top: 0;
+        background-repeat: no-repeat;
+        background-size: cover;      
+        right: -125.32px;  
+        bottom: -11.01px      
+    } 
+    .about__content {
+        margin: 0;        
+        width: 521.302px; 
+        margin-top: 241.62px;   
+    } 
+    .about__img--frame {     
+        width: 383.974px;
+        height: 542.922px;
+        flex-shrink: 0; 
+        margin-left: 141.04px;
+        margin-top: 129.54px;
+    }
+    .about__img--content {     
+        height: 683.479px;
+        width: 650.336px;
+        margin-right: 118.83px;       
+    }
+    .about__content--title {  
+        height: 141px;
+        width: 308px;
+    }
+    .about__content--title p {
+        font-size: 9.3884rem;      
+        letter-spacing: 4.694px;        
+    }
+    .about__content--subtitle {
+        width: 94.521px;
+        height: 128.437px; 
+    }
+    .about__content--subtitle svg{
+        width: 94.521px;
+        height: 128.437px; 
+        flex-shrink: 0; 
+    } 
+    
+    
 }
 @media (min-width: 1200px) {
     body {    
@@ -767,11 +826,14 @@ nav {
     }
     .hero__content--title {
         font-size: 2.5405rem;
+    }
+    .hero__content {
+        align-items: flex-start;
     } 
     .hero__content--subtitle {
         font-size: 6.7105rem;
         width: 557.759px;
-        height: auto;
+        height: auto;        
     } 
     .hero__content--desc{
         font-size: 1.9889rem; 
@@ -822,7 +884,15 @@ nav {
     .skills__item--name {
         font-size: 2.0385rem; 
         letter-spacing: 1.019px; 
-    }  
+    }
+    .about__content--desc p {
+        max-width: 521.302px;
+        width:100%;
+        min-height: 211.403px;
+        height: auto;
+        font-size: 1.4rem;
+        letter-spacing: 0.7px;  
+    }       
 }
 
 @media (min-width: 1260px) { 
@@ -833,10 +903,22 @@ nav {
         flex-shrink: 0;
         background-size: cover;
     }
+    .about__content--desc p {
+        width: 521.302px;
+        height: 211.403px;
+        font-size: 1.4rem;
+        letter-spacing: 0.7px;  
+    }
+    .skills__container {
+        display: flex;        
+    }  
 }
 @media (min-width: 1400px) {
     body { max-width: 1440px; 
         border-left: 2px solid greenyellow;  
         border-right: 2px solid greenyellow;      
+    }
+    header{
+        position: relative;
     }
 }
